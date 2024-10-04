@@ -1,7 +1,6 @@
 import pygame
 import toroidal_rules
 from sys import exit
-# import seeds
 
 
 def init_state(width: int, height: int):

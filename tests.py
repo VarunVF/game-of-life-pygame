@@ -1,4 +1,4 @@
-import rules
+import toroidal_rules
 
 
 def test_update_state():
@@ -12,7 +12,7 @@ def test_update_state():
               [0, 0, 1, 0, 0],
               [0, 0, 1, 0, 0],
               [0, 0, 0, 0, 0]]
-    assert rules.update_state(state1) == state2
+    assert toroidal_rules.update_state(state1) == state2
 
 
 if __name__ == '__main__':
