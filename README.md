@@ -2,7 +2,7 @@
 
 My re-creation of Conway's Game of Life in Python, using Pygame.
 
-<img src="game-of-life.png" alt="Game of Life Demo"/>
+<img src="game-of-life-grid.png" alt="Game of Life Demo"/>
 
 ## Features
 

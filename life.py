@@ -157,5 +157,13 @@ while True:
 
         frame += 1
 
+    # draw vertical and horizontal grid lines
+    for i in range(1, GRID_WIDTH):
+        x = i * CELL_SIZE
+        pygame.draw.line(screen, "#151515", (x, 0), (x, SCREEN_HEIGHT))
+    for i in range(1, GRID_HEIGHT):
+        y = i * CELL_SIZE
+        pygame.draw.line(screen, "#151515", (0, y), (SCREEN_WIDTH, y))
+
     pygame.display.update()  # update screen
     clock.tick(60)  # limit fps to 60
